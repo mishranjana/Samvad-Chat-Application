@@ -1,0 +1,41 @@
+
+  .message_wrapper {
+    margin-top: 5px;
+    padding: 0px 5px;
+  }
+  #simage {
+    width: 100%;
+    border-radius: 5px;
+  }
+  #p {
+    padding: 10px;
+    display: inline-block;
+    max-width: 50%;
+    text-align: left;
+    border-radius: 5px;
+  }
+  .small {
+    opacity: 0.8;
+    color: gray;
+    float: right;
+  }
+  .own {
+    text-align: right;
+  }
+  .me {
+    background: aliceblue;
+  }
+  .friend {
+    background: aliceblue;
+  }
+
+  .selected_user{
+    background: aliceblue;
+    }
+
+    #truncate {
+      white-space: nowrap;
+      width: 70%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }

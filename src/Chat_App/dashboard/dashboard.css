@@ -1,0 +1,18 @@
+.chat{
+    /* height: 55%; */
+    margin-left: 5%;
+    width: 90%;
+    overflow: scroll;
+}
+.imageContainer {
+    position: relative;
+    display: inline-block;
+  }
+.crossIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: grey;
+    font-size: 15px;
+    cursor: pointer;
+  }

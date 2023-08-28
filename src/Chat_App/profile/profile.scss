@@ -1,0 +1,54 @@
+#profile{
+    margin: 40px 312px;
+    margin-top: 15%;
+    margin-block: 10%;
+}
+#details{
+        margin-left: 37%;
+        margin-top: -6%;
+        margin-top: -170px;
+        margin-right: -20%
+        
+}
+.profile-image-container {
+    position: relative;
+  }
+  
+  .profile-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+  }
+
+  .profile-image-overlay:hover {
+    opacity: 1;
+  }
+  
+  .camera-icon,
+  .delete-icon {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .camera-icon:hover,
+  .delete-icon:hover {
+    color: #ccc;
+  }
+  // .avatar-image{
+  //   position: absolute;
+  //   width: 50%;
+  //   height: 215px;
+  //   object-fit: contain;
+  // }
+  

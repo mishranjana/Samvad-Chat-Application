@@ -1,0 +1,27 @@
+.custom-height {
+  height: 600px !important;
+}
+
+.card-body {
+  overflow: scroll;
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#input {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.tabImage {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
